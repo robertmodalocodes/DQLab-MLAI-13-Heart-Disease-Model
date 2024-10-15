@@ -4,10 +4,6 @@ import pickle
 import time
 from PIL import Image
 
-'''
-Additional imports:
-'''
-
 ##-----------------------------------------------------------------------------------------------------------------------------------------------------##
 
 import numpy as np
@@ -130,5 +126,4 @@ def heart():
             st.success(f"Prediction result: {output}")
 
 
-if __name__ == "__main__":
-    heart()
+heart()
