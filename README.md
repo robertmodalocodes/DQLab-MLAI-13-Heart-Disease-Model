@@ -2,6 +2,11 @@
 ## DQLab Machine Learning and AI Bootcamp (Batch 13) Portfolio Project - Heart Disease Modelling
 
 This particular application was built as a final project of DQLab's Machine Learning and AI for Beginners Bootcamp.
+
+This app that lets you predict whether a subject/patient/person has a heart disease given a set of input with scikit-learn.
+
+[Open in Streamlit](https://dqlab-mlai-13-heart-disease-model-azuxeufvscvfz45vam6r8j.streamlit.app/)
+
 The dataset used is the notorious Heart Disease dataset from UCI Machine Learning Repository
 [Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
 
@@ -15,3 +20,18 @@ Original authors of the source codes:
 2. Abel Kristanto
 
 For information and further use and modification, please consider reaching the original authors.
+
+
+### How to run it on your own machine
+
+**1. Install the requirements:**
+
+```bash
+$ pip install -r requirements.txt
+```
+
+**2. Run the app
+
+```bash
+$ streamlit run heart_disease_model_deploy.py
+```
