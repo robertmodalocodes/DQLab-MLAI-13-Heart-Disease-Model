@@ -11,8 +11,8 @@ st.write("""
 This dashboard created by : [@robertmodalo](www.linkedin.com/in/robert-modalo-78b97580)
 
 **Disclaimer**:
+- This app is for educational purposes only
 - This app is not for diagnostical purposes
-- Comparation and research use cases only
 - Professional assistance is recommended to use this app
 """)
 
