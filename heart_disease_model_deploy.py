@@ -21,6 +21,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.decomposition import PCA
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, classification_report, confusion_matrix, f1_score, roc_curve, roc_auc_score
+import sklearn.metrics._scorer
 from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
@@ -125,5 +126,5 @@ def heart():
             time.sleep(4)
             st.success(f"Prediction result: {output}")
 
-
-heart()
+if __name__ == '__main__':
+    heart()
