@@ -22,7 +22,7 @@ Original authors of the source codes:
 For information and further use and modification, please consider reaching the original authors.
 
 
-### How to run it on your own machine
+### Run it on your machine
 
 **1. Install the requirements:**
 
@@ -30,7 +30,7 @@ For information and further use and modification, please consider reaching the o
 $ pip install -r requirements.txt
 ```
 
-**2. Run the app**
+**2. Run the app:**
 
 ```bash
 $ streamlit run heart_disease_model_deploy.py
