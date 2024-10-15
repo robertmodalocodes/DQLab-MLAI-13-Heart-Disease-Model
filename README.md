@@ -3,7 +3,7 @@
 
 This particular application was built as a final project of DQLab's Machine Learning and AI for Beginners Bootcamp.
 
-This app that lets you predict whether a subject/patient/person has a heart disease given a set of input with scikit-learn.
+This app that lets you predict whether a subject/patient/person has a heart disease given a set of inputs using scikit-learn.
 
 [Open in Streamlit](https://dqlab-mlai-13-heart-disease-model-azuxeufvscvfz45vam6r8j.streamlit.app/)
 
@@ -30,7 +30,7 @@ For information and further use and modification, please consider reaching the o
 $ pip install -r requirements.txt
 ```
 
-**2. Run the app
+**2. Run the app**
 
 ```bash
 $ streamlit run heart_disease_model_deploy.py
