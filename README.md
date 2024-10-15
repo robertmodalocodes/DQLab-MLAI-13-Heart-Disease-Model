@@ -3,7 +3,7 @@
 
 This particular application was built as a final project of DQLab's Machine Learning and AI for Beginners Bootcamp.
 The dataset used is the notorious Heart Disease dataset from UCI Machine Learning Repository
-[!Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
+[Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
 
 Disclaimer:
 - This app is for educational purposes only
