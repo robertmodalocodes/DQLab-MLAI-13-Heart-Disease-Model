@@ -4,6 +4,33 @@ import pickle
 import time
 from PIL import Image
 
+'''
+Additional imports:
+'''
+
+##-----------------------------------------------------------------------------------------------------------------------------------------------------##
+
+import numpy as np
+import pandas as pd
+import math
+import random
+import seaborn as sns
+from scipy.stats import pearsonr, jarque_bera
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.decomposition import PCA
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, classification_report, confusion_matrix, f1_score, roc_curve, roc_auc_score
+from sklearn.model_selection import cross_val_score
+from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import GridSearchCV
+
+##-----------------------------------------------------------------------------------------------------------------------------------------------------##
+
 st.set_page_config(page_title="Halaman Modelling", layout="wide")
 st.write("""
 # Welcome to heart disease machine learning dashboard
